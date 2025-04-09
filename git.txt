@@ -22,3 +22,5 @@ git checkout NOME-BRANCH -> Alternar entre branches
 git switch NOME-BRANCH -> Alternar entre branches
 git checkout -b NOME-BRANCH -> Criar uma nova branch
 git switch -c NOME-BRANCH -> Criar uma nova branch
+git merge NOME-BRANCH
+git rebase NOME-BRANCH
