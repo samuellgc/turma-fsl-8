@@ -25,3 +25,4 @@ git switch -c NOME-BRANCH -> Criar uma nova branch
 git merge NOME-BRANCH
 git rebase NOME-BRANCH
 conflito aqui
+git pull -> trazer as informações atualizadas do github para o local
