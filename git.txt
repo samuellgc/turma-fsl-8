@@ -18,3 +18,9 @@ git remote add origin URL DO REPO
 git add .
 git commit -m "comentário"
 git push -u origin main / git push
+git checkout NOME-BRANCH -> Alternar entre branches
+git switch NOME-BRANCH -> Alternar entre branches
+git checkout -b NOME-BRANCH -> Criar uma nova branch
+git switch -c NOME-BRANCH -> Criar uma nova branch
+git merge NOME-BRANCH
+git rebase NOME-BRANCH
