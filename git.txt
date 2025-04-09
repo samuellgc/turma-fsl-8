@@ -24,3 +24,4 @@ git checkout -b NOME-BRANCH -> Criar uma nova branch
 git switch -c NOME-BRANCH -> Criar uma nova branch
 git merge NOME-BRANCH
 git rebase NOME-BRANCH
+git pull -> trazer as informações atualizadas do github para o local
