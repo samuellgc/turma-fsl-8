@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* h1 {
+  background-color: blue;
+}
+
+h1 {
+  background-color: brown;
+} */
+
+/* *
+  seletor {
+    propriedade: valor;
+  } */
+
+/* p {
+  font-size: 32px;
+} */
+
+/* 
+  Níveis de hierarquia do CSS
+    1. Direto no HTML
+    2. Ids
+    3. Classes
+    4. Tags
+*/
+/* Sempre que for acessar classes, 
+  colocar o . (ponto) 
+*/
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+#p-principal {
+  font-size: 14px;
+  color: darkblue;
+}
+
+/* px | rem | em | % | vh | vw */
+.container {
+  background-color: ivory;
+  width: 100%;
+  height: 100vh;
+  padding: 14px; /* Espaçamento interno */
+  /* margin: 12px; Espaçamento externo */
+}
+
+/* 
+  Top - cima
+  Left - esquerda
+  Right - direita
+  bottom - baixo
+*/
+
+.main-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.main-footer {
+  margin-top: 32px;
+}
