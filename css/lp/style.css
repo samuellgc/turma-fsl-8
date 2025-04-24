@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+}
+
+.main-header {
+  background-color: black;
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 12px;
+}
+
+.header-img {
+  width: 24px;
+}
+
+.header-text {
+  font-weight: 400;
+  font-size: 12px;
+  color: white;
+}
+
+.main-content {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 202, 122, 1) 0%,
+    rgba(255, 153, 0, 1) 63%
+  );
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 0 50px;
+}
+
+.main-content .content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 50%;
+}
+
+.content .content-img {
+  width: 100px;
+  align-self: center;
+}
+
+.main-content .content .content-title {
+  font-size: 36px;
+}
+
+.main-content .content .content-text {
+  font-size: 14px;
+}
+
+.main-content .content .content-buttons button {
+  background-color: black;
+  color: white;
+  padding: 6px 16px;
+  border: none;
+  border-radius: 4px;
+}
+
+.main-content .content-form {
+  background-color: black;
+  padding: 10px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 50%;
+}
+
+.main-content .content-form .form-title {
+  color: white;
+  text-align: center;
+  font-size: 26px;
+}
+
+.main-content .content-form .form-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.main-content .content-form .form-fields input {
+  background-color: rgb(254, 191, 73);
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  height: 25px;
+  padding: 0 6px;
+}
+
+.main-content .content-form .form-fields textarea {
+  background-color: rgb(254, 191, 73);
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 8px 6px;
+}
+
+.main-content .content-form .form-fields button {
+  background-color: rgb(65, 65, 65);
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 8px 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.main-content .content-form p {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+
+.main-content .content-form span {
+  color: rgb(254, 191, 73);
+}
