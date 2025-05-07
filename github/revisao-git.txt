@@ -1,0 +1,9 @@
+Fluxo criar nova branch:
+1. git switch nome-branch pra definir a branch de partida
+2. git fetch para buscar as novas alterações realizadas por outros desenvolvedores no projeto
+3. git pull para receber as alterações na branch atual local
+4. git switch -c nova-branch pra criar uma branch nova no local e mudar da anterior para nova
+5. git push -u origin nova-branch enviando a nova branch local para ser rastreada pela origin e aparecer no GitHub
+
+Fluxo de gerar e publicar um commit:
+1. git add . 
