@@ -1,9 +1,35 @@
 Fluxo criar nova branch:
-1. git switch nome-branch pra definir a branch de partida
-2. git fetch para buscar as novas alterações realizadas por outros desenvolvedores no projeto
-3. git pull para receber as alterações na branch atual local
-4. git switch -c nova-branch pra criar uma branch nova no local e mudar da anterior para nova
-5. git push -u origin nova-branch enviando a nova branch local para ser rastreada pela origin e aparecer no GitHub
+1. git switch nome-branch -  definir a branch de partida
+2. git fetch - buscar as novas alterações realizadas por outros desenvolvedores no projeto
+3. git pull - receber as alterações na branch atual local
+4. git switch -c nova-branch - criar uma branch nova no local e mudar da anterior para nova
+5. git push -u origin nova-branch - enviar a nova branch local para ser rastreada pela origin e aparecer no GitHub
 
 Fluxo de gerar e publicar um commit:
-1. git add . 
+1. git add . || git add caminho-do-arquivo - adicionar os arquivos criados/alterados/removidos
+2. git commit -m "criar o commit das mudanças" - criar um comentário relacionado as alterações feitas
+3. git push - enviar as alterações para o GitHub
+
+Fluxo de clonar um repositório já existente com arquivos:
+1. git clone url-do-repositório - criar uma cópia do repositório em nuvem na minha máquina local
+
+Fluxo de alterar o nome de uma branch local:
+1. git branch -M novo-nome - alterar o nome de uma branch no local
+
+Fluxo de alterar de uma branch para outra:
+1. git switch nome-da-branch - alterar da branch atual para uma outra branch já existente
+
+Fluxo de salvar as alterações não adicionadas na memória local:
+1. git stash - salvar as alterações não adicionadas e commitadas na memória do seu diretório
+
+Fluxo de aplicar as alterações salvas com o git stash:
+1. git stash apply - aplicar as alterações salvas pelo git stash no seu projeto
+
+Fluxo de remover todas as alterações não adicionadas do nosso projeto:
+1. git restore . || caminho do arquivo - remover todos os arquivos que não foram adicionados para o comentário
+
+Fluxo de adicionar arquivos locais em um repositório vazio:
+1. git init - inicializar o git no seu diretório
+2. (opcional) git branch -M novo-nome-branch - alterar o nome da branch
+3. git remote add origin url-repositório - fazer o link entre o seu diretório local e o repositório online
+4 git push -u origin novo-nome-branch
